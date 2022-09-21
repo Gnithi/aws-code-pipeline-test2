@@ -16,5 +16,5 @@ phases:
       - mv target/demo-0.0.1-SNAPSHOT.jar ./deploy
 artifacts:
   files:
-    - deploy/aws-code-pipeline-0.0.1-SNAPSHOT.jar
+    - deploy/demo-0.0.1-SNAPSHOT.jar
     -
