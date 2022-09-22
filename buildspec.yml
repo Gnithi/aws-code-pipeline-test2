@@ -13,7 +13,8 @@ phases:
   post_build:
     commands:
       - echo "Entered the post-build phase9"
+      - mv target/demo-0.0.1-SNAPSHOT.jar demo-0.0.1-SNAPSHOT.jar
      # - mv ./target/demo-0.0.1-SNAPSHOT.jar ./deploy
 artifacts:
   files:
-    - ./target/demo-0.0.1-SNAPSHOT.jar
+    - demo-0.0.1-SNAPSHOT.jar
